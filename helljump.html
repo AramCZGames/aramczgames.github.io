@@ -336,6 +336,29 @@
             color: var(--primary);
             text-decoration: none;
         }
+
+        /* ── MOBILE ── */
+        @media (max-width: 640px) {
+            header {
+                flex-wrap: wrap;
+                gap: 8px;
+                padding: 0.75rem 4%;
+            }
+            nav {
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            nav > a { font-size: 0.85rem; }
+            .nav-divider { display: none; }
+            .social-icons { gap: 10px; }
+            .hero { padding: 80px 4% 60px; width: 100%; }
+            .hero h1 { font-size: 2.4rem; }
+            .hero p { font-size: 1rem; }
+            h2 { font-size: 1.6rem; }
+            section { padding: 48px 4%; }
+            .download-grid { grid-template-columns: 1fr; }
+            .screenshots-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>

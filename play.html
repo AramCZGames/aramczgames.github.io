@@ -164,6 +164,22 @@
             margin-top: 32px;
         }
         footer a { color: var(--primary); text-decoration: none; }
+
+        /* ── MOBILE ── */
+        @media (max-width: 640px) {
+            header {
+                flex-wrap: wrap;
+                gap: 8px;
+                padding: 0.75rem 4%;
+            }
+            nav {
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            nav > a { font-size: 0.85rem; }
+            .nav-divider { display: none; }
+            .social-icons { gap: 10px; }
+        }
     </style>
 </head>
 <body>
