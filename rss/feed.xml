@@ -5,7 +5,7 @@
   <channel>
 
     <title>Purple Controller</title>
-    <link>https://purplecontroller.github.io/helljump</link>
+    <link>https://purplecontroller.github.io/helljump/</link>
     <description>News and updates from Purple Controller.</description>
     <language>en</language>
 
@@ -21,16 +21,16 @@
           Currently, only Level 36 is finished.
         </p>
 
-        <img
-          src="https://purplecontroller.github.io/images/hell-jump-chapter-4-ending.png"
-          alt="New Hell Jump ending visual">
-
         <p>
           We also have a new ending visual.
           Some help with it came from
           <a href="https://wolfyxon.github.io/">Wolfyxon</a>.
           He's a cool guy!
         </p>
+
+        <img
+          src="https://purplecontroller.github.io/images/hell-jump-chapter-4-ending.png"
+          alt="New Hell Jump ending visual">
 
         <p>
           That's all for now. We're currently working on a secret project
@@ -44,7 +44,6 @@
         https://purplecontroller.github.io/helljump/chapter-4-progress-september-2026
       </guid>
     </item>
-
 
     <item>
       <title>Welcome to Purple Controller RSS Feed</title>
