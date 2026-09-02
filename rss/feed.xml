@@ -4,7 +4,7 @@
   <channel>
 
     <title>Purple Controller</title>
-    <link>https://purplecontroller.github.io/helljump/</link>
+    <link>https://purplecontroller.github.io/</link>
     <description>News and updates from Purple Controller.</description>
     <language>en</language>
     <lastBuildDate>Wed, 02 Sep 2026 00:00:00 GMT</lastBuildDate>
@@ -12,7 +12,7 @@
     <image>
       <url>https://purplecontroller.github.io/images/purple-controller-logo.png</url>
       <title>Purple Controller</title>
-      <link>https://purplecontroller.github.io/helljump/</link>
+      <link>https://purplecontroller.github.io/helljump</link>
     </image>
 
     <category>Games</category>
@@ -21,7 +21,7 @@
     <item>
       <title>Hell Jump Chapter 4 Progress Update - September 2026</title>
 
-      <link>https://purplecontroller.github.io/helljump/</link>
+      <link>https://purplecontroller.github.io/helljump</link>
 
       <description><![CDATA[
         <p>
@@ -70,7 +70,7 @@
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
 
       <guid isPermaLink="true">
-        https://purplecontroller.github.io/rss/feed#welcome
+        https://purplecontroller.github.io/rss/feed.xml
       </guid>
     </item>
 
