@@ -1,0 +1,71 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+  <channel>
+
+    <title>Purple Controller</title>
+    <link>https://purplecontroller.github.io/helljump</link>
+    <description>News and updates from Purple Controller.</description>
+    <language>en</language>
+
+    <item>
+      <title>Hell Jump Chapter 4 Progress Update - September 2026</title>
+
+      <link>https://purplecontroller.github.io/helljump/</link>
+
+      <description><![CDATA[
+        <p>
+          Hell Jump Chapter 4 is now in development!
+          We're hoping that this chapter will be really good.
+          Currently, only Level 36 is finished.
+        </p>
+
+        <img
+          src="https://purplecontroller.github.io/images/hell-jump-chapter-4-ending.png"
+          alt="New Hell Jump ending visual">
+
+        <p>
+          We also have a new ending visual.
+          Some help with it came from
+          <a href="https://wolfyxon.github.io/">Wolfyxon</a>.
+          He's a cool guy!
+        </p>
+
+        <p>
+          That's all for now. We're currently working on a secret project
+          that is coming this century.
+        </p>
+      ]]></description>
+
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+
+      <guid isPermaLink="true">
+        https://purplecontroller.github.io/helljump/chapter-4-progress-september-2026
+      </guid>
+    </item>
+
+
+    <item>
+      <title>Welcome to Purple Controller RSS Feed</title>
+
+      <link>https://purplecontroller.github.io/rss/feed</link>
+
+      <description><![CDATA[
+        <p>
+          Welcome to the official Purple Controller RSS feed!
+          And why did we choose RSS to deliver news?
+          Because it's cool :D
+        </p>
+      ]]></description>
+
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+
+      <guid isPermaLink="true">
+        https://purplecontroller.github.io/rss/feed#welcome
+      </guid>
+    </item>
+
+  </channel>
+</rss>
+```
