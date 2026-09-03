@@ -10,9 +10,9 @@
     <lastBuildDate>Wed, 02 Sep 2026 00:00:00 GMT</lastBuildDate>
 
     <image>
-      <url>https://purplecontroller.github.io/images/Purple\controller</url>
+      <url>https://purplecontroller.github.io/images/Purple controller.png</url>
       <title>Purple Controller</title>
-      <link>https://purplecontroller.github.io/helljump</link>
+      <link>https://purplecontroller.github.io/</link>
     </image>
 
     <category>Games</category>
@@ -38,7 +38,7 @@
         </p>
 
         <img
-          src="https://purplecontroller.github.io/rss/images/end.png"
+          src="/rss/images/end.png"
           alt="New Hell Jump ending visual">
 
         <p>

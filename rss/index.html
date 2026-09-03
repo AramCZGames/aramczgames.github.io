@@ -10,7 +10,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purple Controller</title>
+    <title>RSS</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <style>
@@ -239,67 +239,6 @@
             margin: auto;
         }
 
-        .about-me {
-            background: #ffffff;
-            padding: 40px 5%;
-        }
-
-        .about-me .container {
-            text-align: center;
-            max-width: 900px;
-        }
-
-        .about-me p {
-            font-size: 1.15rem;
-            color: #334155;
-            margin-bottom: 15px;
-        }
-
-        .help-center {
-            background: #f8fafc;
-            padding: 40px 5%;
-        }
-
-        .help-center .container {
-            text-align: center;
-            max-width: 900px;
-        }
-
-        .contact-me {
-            background: #f8fafc;
-            padding: 40px 5%;
-        }
-
-        .contact-me .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .contact-me form {
-            display: grid;
-            gap: 14px;
-            margin-top: 10px;
-        }
-
-        .contact-me label {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            color: #1e293b;
-            font-weight: 500;
-        }
-
-        .contact-me input,
-        .contact-me textarea {
-            margin-top: 8px;
-            border: 1px solid #cbd5e1;
-            border-radius: 6px;
-            padding: 10px;
-            font: inherit;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
         .contact-me .btn {
             margin-top: 10px;
             width: fit-content;
@@ -503,27 +442,10 @@
                 max-width: 100%;
             }
 
-            .about-me {
-                padding: 32px 4%;
-            }
-
-            .help-center {
-                padding: 32px 4%;
-            }
-
-            .contact-me {
-                padding: 32px 4%;
-            }
-
             /* Headings */
             h2 {
                 font-size: 1.5rem;
                 margin-bottom: 16px;
-            }
-
-            .about-me p,
-            .help-center p {
-                font-size: 0.95rem;
             }
 
             /* Grid & Cards */
@@ -640,10 +562,7 @@
         </button>
         <nav id="mobile-nav" aria-label="Main navigation">
             <button type="button" class="nav-close" onclick="toggleMobileMenu()" aria-label="Close menu">×</button>
-            <a href="#games">Games</a>
-            <a href="#about">About</a>
-            </a>
-            <a href="#contact">Contact</a>
+            <a href="#reader">Download an RSS Reader</a>
             <div class="nav-divider"></div>
             <div class="social-icons">
                 <!-- GitHub -->
@@ -664,7 +583,7 @@
                         <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                     </svg>
                     <!-- RSS -->
-                    <a href="https://purplecontroller.github.io/rss/" target="_blank" rel="noopener" aria-label="RSS">
+                    <a href="https://purplecontroller.github.io/rss/feed" target="_blank" rel="noopener" aria-label="RSS">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4 4a16 16 0 0 1 16 16h-3a13 13 0 0 0-13-13V4zm0 6a10 10 0 0 1 10 10h-3a7 7 0 0 0-7-7v-3zm2.5 7.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
                         </svg>
@@ -675,130 +594,25 @@
     </header>
 
     <section class="hero">
-        <h1>Purple Controller</h1>
-        <p>A random indie game studio in Czech Republic.</p>
+        <h1>RSS</h1>
+        <p>RSS is a web feed that allows users and applications to access news to websites. To read RSS you will need to </p>
     </section>
 
-    <div class="container" id="games">
-        <h2>My games</h2>
+    <div class="container" id="reader">
+        <h2>RSS Readers</h2>
         <div class="grid">
             <div class="card">
-                <h3><img src="./images/HellJumpIcon.png" class="project-icon" alt="Hell Jump icon">Hell Jump</h3>
-                <p class="meta">Released</p>
-                <p>A hellish platformer.</p>
-                <a href="https://purplecontroller.github.io/helljump" class="btn" aria-label="Learn more">Learn More</a>
+                <h3>RSSOwl</h3>
+                <p class="meta">Winodws, Linux and MacOS</p>
+                <a href="https://rssowl.org/" class="btn" aria-label="Learn more">Download</a>
             </div>
             <div class="card">
-                <h3>Coming Sometimes</h3>
-                <p class="meta">Coming Soon</p>
-                <p>We shall see what this game will be about.</p>
+                <h3>Feed Flow</h3>
+                <p class="meta">Android and iOS</p>
+                <a href="https://www.feedflow.dev/" class="btn" aria-label="Learn more">Download</a>
             </div>
         </div>
     </div>
-
-    <section class="about-me" id="about">
-        <div class="container">
-            <h2>About us</h2>
-            <p>Learn more about the devs in Purple Controller.</p>
-            <a href="https://purplecontroller.github.io/about" class="btn">Learn more</a>
-        </div>
-    </section>
-
-    <section class="contact-me" id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-        <form id="contact-form">
-
-            <label>
-                How should we call you?
-                <input type="text" name="name" required>
-            </label>
-
-            <label>
-                Email
-                <input type="email" name="email" required>
-            </label>
-
-            <label>
-                Message
-                <textarea name="message" rows="5" required></textarea>
-            </label>
-            <div class="g-recaptcha" data-sitekey="6LdF5yktAAAAAFj7fxYUWzpc5GYQQXg0kvBYV5A0"></div>
-            <button type="submit" class="btn" id="submit-btn">Send</button>
-
-            <p class="form-status" id="form-status"></p>
-        </form>
-        </div>
-    </section>
-
-
-
-    <script>
-        function toggleMobileMenu() {
-            const btn = document.querySelector('.hamburger-btn');
-            const nav = document.getElementById('mobile-nav');
-            btn.classList.toggle('active');
-            nav.classList.toggle('active');
-            btn.setAttribute('aria-expanded', nav.classList.contains('active'));
-        }
-
-        // Close mobile menu when a link is clicked
-        document.querySelectorAll('#mobile-nav a').forEach(link => {
-            link.addEventListener('click', () => {
-                if (document.getElementById('mobile-nav').classList.contains('active')) {
-                    toggleMobileMenu();
-                }
-            });
-        });
-
-        emailjs.init("9Xl1T_6DieLASM882");
-
-        const form = document.getElementById('contact-form');
-        const btn = document.getElementById('submit-btn');
-        const status = document.getElementById('form-status');
-
-        form.addEventListener('submit', async function(e) {
-            e.preventDefault();
-
-            btn.disabled = true;
-            btn.textContent = 'Sending...';
-            status.style.display = 'none';
-
-            const captchaResponse = grecaptcha.getResponse();
-
-            if (!captchaResponse) {
-                status.textContent = 'Please complete the CAPTCHA.';
-                status.className = 'form-status error';
-                status.style.display = 'block';
-
-                btn.disabled = false;
-                btn.textContent = 'Send';
-                return;
-            }
-
-            try {
-                const result = await emailjs.sendForm(
-                    'service_ell4koi',
-                    'template_77h7shg',
-                    form
-                );
-
-                status.textContent = 'Message sent successfully!';
-                status.className = 'form-status success';
-                form.reset();
-                grecaptcha.reset();
-
-            } catch (err) {
-                console.error(err);
-                status.textContent = 'Failed to send message.';
-                status.className = 'form-status error';
-            }
-
-            status.style.display = 'block';
-            btn.disabled = false;
-            btn.textContent = 'Send';
-        });
-    </script>
 
  <footer>
         <p>&copy; 2026 Purple Controller. Licenced under GNU 3.0 licence.</p>
